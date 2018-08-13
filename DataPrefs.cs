@@ -857,5 +857,4 @@ public static class DataPrefs
             return init;
         }
     }
-
 }
