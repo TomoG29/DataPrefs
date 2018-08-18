@@ -3,6 +3,30 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+    /*
+     * Test_型名 
+     * GetとSetを使った基本的な使用方法
+     * 
+     * Test_型名_init
+     * Get時とSet時のKeyが異なった場合の挙動調査
+     * 
+     * Test_list_型名
+     * GetとSetを使ったリストの基本的な使用方法
+     * 
+     * Test_list_型名_init
+     * Get時とSet時のKeyが異なった場合の挙動調査
+     * 
+     * Test_list_型名_del
+     * 指定されたKeyのリストが削除されているか挙動調査
+     * 
+     * Test_list_型名_AtSet
+     * 指定されたKeyの指定された番号に値を変更できているか
+     * 
+     * Test_list_型名_AtGet
+     * 指定されたKeyの指定された番号の値が取得できているか
+     * 
+     */
+
     void Start()
     {
         Test_list_vector3();
